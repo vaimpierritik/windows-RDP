@@ -32,5 +32,5 @@ jobs:
       run: cmd /c start.bat
     - name: RDP is ready!
       run: | 
-        Invoke-WebRequest https://raw.githubusercontent.com/romain09/AWS-RDP/main/loop.ps1 -OutFile loop.ps1
+        Invoke-WebRequest https://raw.githubusercontent.com/samay826/Samay_Latest_RDp/main/loop.ps1 -OutFile loop.ps1
         ./loop.ps1
