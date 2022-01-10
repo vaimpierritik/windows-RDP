@@ -14,7 +14,7 @@ ICACLS C:\Windows\Temp /grant administrator:F >nul
 ICACLS C:\Windows\installer /grant administrator:F >nul
 echo ngrok install !, rebuilding the rdp
 echo IP:
-tasklist | find /i "ngrok.exe" >Nul && curl -s localhost:4040/api/tunnels | jq -r .tunnels[0].public_url || echo "connecting the ngrok tunnel,  NGROK_AUTH_TOKEN  Settings> Secrets> Repository secret. you can go and see dashboard in : https://dashboard.ngrok.com/status/tunnels "
+tasklist | find /i "ngrok.exe" >Nul && curl -s localhost:4040/api/tunnels | jq -r .tunnels[0].public_url || echo "connecting the ngrok tunnel,  NGROK_AUTH_TOKEN  Settings> Secrets> Repository secret. you can go and see dashboard in : https://dashboard.ngrok.com/status/tunnels This is VaimpierRitik Please Login now. "
 echo Username: VaimpierRitik
 echo Password: @Ritik
 echo Hello bro please login now ( mstsc ) 
